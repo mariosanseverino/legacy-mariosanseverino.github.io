@@ -8,17 +8,18 @@
     margin: 0 2.6em;
 }
 
-.author-about p {
-    text-align: justify;
-    line-height: 1.3em;
-}
-
 .mario-photo-area {
-    display: flex;
-    margin-bottom: 1em;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 2em;
 }
 
 .mario-photo {
     margin: 0 auto;
     width: 336px;
+}
+
+.author-description {
+    text-align: justify;
+    line-height: 1.3em;
 }
