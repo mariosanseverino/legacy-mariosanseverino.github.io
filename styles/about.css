@@ -1,0 +1,24 @@
+.author {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.author-about {
+    margin: 0 2.6em;
+}
+
+.author-about p {
+    text-align: justify;
+    line-height: 1.3em;
+}
+
+.mario-photo-area {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.mario-photo {
+    margin: 0 auto;
+    width: 336px;
+}
