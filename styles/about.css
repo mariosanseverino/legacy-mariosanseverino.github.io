@@ -29,12 +29,12 @@
     border: 1px white solid;
 }
 
-ul {
+.skills-list {
     align-content: center;
 }
 
-li {
-    margin: 0.3em 0;
+.skills-item {
+    width: 50%;
     text-align: center;
     line-height: 1.3em;
 }
