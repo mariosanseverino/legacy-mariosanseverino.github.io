@@ -2,24 +2,39 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .author-about {
-    margin: 0 2.6em;
+    margin: 0 2.6em 2em;
 }
 
 .mario-photo-area {
-    display: inline-block;
     text-align: center;
     margin-bottom: 2em;
 }
 
 .mario-photo {
     margin: 0 auto;
-    width: 336px;
+    width: 330px;
 }
 
 .author-description {
     text-align: justify;
+    line-height: 1.3em;
+}
+
+.author-skills {
+    margin: 0 2.6em;
+    border: 1px white solid;
+}
+
+ul {
+    align-content: center;
+}
+
+li {
+    margin: 0.3em 0;
+    text-align: center;
     line-height: 1.3em;
 }
