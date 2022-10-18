@@ -23,18 +23,3 @@
     text-align: justify;
     line-height: 1.3em;
 }
-
-.author-skills {
-    margin: 0 2.6em;
-    border: 1px white solid;
-}
-
-.skills-list {
-    align-content: center;
-}
-
-.skills-item {
-    width: 50%;
-    text-align: center;
-    line-height: 1.3em;
-}

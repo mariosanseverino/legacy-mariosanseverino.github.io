@@ -1,4 +1,25 @@
 .projects-content {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    padding: 1em 15px;
+    background-color: white;
+    border-radius: 1em;
+    color: black;
     text-align: center;
+    margin: 0 auto 2em;
+    width: 300px;
+}
+
+.project a {
+    color: black;
+    font-weight: 600;
+}
+
+.project-thumbnail-img {
+    border-radius: 0.6em;
+    width: 300px;
+    margin-bottom: 0.6em;
 }
