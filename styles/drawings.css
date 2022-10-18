@@ -1,14 +1,13 @@
-.drawing-library-row {
-    text-align: center;
-    width: 100%;
-}
-
-.drawing-library-image {
-    display: inline-block;
-    margin: 0 0.3em 0.3em 0;
+.drawing-library {
+    margin: 0 2em;
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 0.3em;
+    column-gap: 0.3em;
 }
 
 .drawing-small {
+    margin: 0 0.3em 0.3em 0;
     width: 26vw;
 }
 
