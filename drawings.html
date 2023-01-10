@@ -34,45 +34,8 @@
     <main>
         <h1>Drawings Library</h1>
         <section class="drawing-library">
-            <img src="images/blood-knife.png" alt="Blood Knife drawing"
-                    class="drawing-small">
-            <img src="images/central-flames.png" alt="Central Flames drawing"
-                    class="drawing-small">
-            <img src="images/reaper.png" alt="Reaper drawing"
-                    class="drawing-small">
-            <img src="images/coffin.png" alt="Coffin drawing"
-                    class="drawing-small">
-            <img src="images/ritual-of-skulls.png"
-                    alt="Ritual of Skulls drawing" class="drawing-small">
-            <img src="images/horned-skull.png" alt="Horned Skull drawing"
-                    class="drawing-small">
-            <img src="images/skull-cowboy.png" alt="Skull cowboy drawing"
-                    class="drawing-small">
-            <img src="images/blood-sword.png" alt="Blood sword drawing"
-                    class="drawing-small">
-            <img src="images/heart-forging.png" alt="Heart forging drawing"
-                    class="drawing-small">
-            <img src="images/demon-hunter.png" alt="Demon hunter drawing"
-                    class="drawing-small">
-            <img src="images/dreaming.png" alt="Dreaming drawing"
-                    class="drawing-small">
-            <img src="images/deadline.png" alt="Deadline drawing"
-                    class="drawing-small">
-            <img src="images/nature.png" alt="Nature drawing"
-                    class="drawing-small">
-            <img src="images/charmer.png" alt="Charmer drawing"
-                    class="drawing-small">
-            <img src="images/sail.png" alt="Sail drawing"
-            class="drawing-small">
-            <img src="images/lightning-panther.png"
-                    alt="lightning panther drawing" class="drawing-small">
-            <img src="images/heart-forging.png" alt="Heart forging drawing"
-                    class="drawing-small">
-            <img src="images/ritual.png" alt="Ritual drawing"
-                    class="drawing-small">
         </section>
         <div class="popup-image-container">
-            <img src="images/blood-knife.png" alt="Image on zoom" class="popup-image-zoom">
         </div>
     </main>
 
@@ -80,17 +43,7 @@
         <p class="footer-credits">&copy All content and website development made by Mário Sanseverino.</p>
     </footer>
 
-    <script>
-        document.querySelectorAll('.drawing-library img').forEach(img => {
-            img.onclick = () => {
-                document.querySelector('.popup-image-container').style.display = 'block';
-                document.querySelector('.popup-image-container img').src = img.getAttribute('src')
-            }
-        })
-
-        document.querySelector('.popup-image-container').onclick = () => {
-            document.querySelector('.popup-image-container').style.display = 'none';
-        }
+    <script src="./scripts/drawings.js">
     </script>
 </body>
 
